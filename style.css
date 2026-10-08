@@ -3102,3 +3102,40 @@ z-index: 999;
 }
 
 }
+/* =========================
+Mobile Hover Effects
+========================= */
+
+@media (max-width: 768px) {
+
+.service-card:active,
+.certificate-card:active,
+.skill-card:active,
+.contact-card:active,
+.experience-card:active,
+.education-card:active,
+.featured-project-card:active,
+.project-card:active {
+
+transform: translateY(-6px);
+box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+
+}
+
+
+.btn:active,
+.project-btn:active,
+.cv-button:active {
+
+transform: translateY(-3px);
+
+}
+
+
+.nav-links a:active {
+
+opacity: 0.7;
+
+}
+
+}

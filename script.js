@@ -56,15 +56,28 @@ function displayOtherProjects(repositories) {
 
 repositories.forEach(repo => {
 
-// Don't show the Featured Project twice
+const repoName =
+repo.name.toLowerCase();
+
+
+// ========================================
+// Don't show Featured Project twice
+// Red Sea Rescue Grid is already displayed
+// in the Featured Project section.
+// ========================================
+
 if (
-repo.name.toLowerCase() === "finalbookreview" ||
-repo.name.toLowerCase() === "maryam-alnumani-portfolio"
+repoName === "red-sea-rescue-grid" ||
+repoName === "redsearescuegrid" ||
+repoName === "maryam-alnumani-portfolio"
 ) {
 return;
 }
 
 
+// ========================================
+// Create Project Card
+// ========================================
 
 const card =
 document.createElement("div");
@@ -108,6 +121,10 @@ View Project →
 
 `;
 
+
+// ========================================
+// Add Project
+// ========================================
 
 projectsContainer.appendChild(card);
 
