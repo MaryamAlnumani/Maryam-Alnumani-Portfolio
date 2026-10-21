@@ -1398,4 +1398,20 @@ gap: 7px;
 font-size: 14px;
 }
 }
+/* Fix symbols on mobile only */
+@media (max-width: 760px) {
+.art-star {
+color: #E8DCE9 !important;
+font-family: Arial, sans-serif;
+font-variant-emoji: text;
+}
+
+.arrow,
+.hero-actions .arrow,
+.hero-socials .arrow {
+color: #806083 !important;
+font-family: Arial, sans-serif;
+font-variant-emoji: text;
+}
+}
 
