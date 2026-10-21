@@ -1,1092 +1,497 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<meta name="theme-color" content="#F8F5EF">
+<meta name="description" content="Maryam Alnumani — Management Information Systems graduate interested in backend development, data analytics, and digital transformation.">
 <title>Maryam Alnumani | Portfolio</title>
-
 <link rel="stylesheet" href="style.css">
-
 </head>
 
-
 <body>
+<header class="site-header">
+<nav class="navbar container" aria-label="Main navigation">
+<a href="#home" class="logo">M<span>A</span>.</a>
 
-<!-- Navigation -->
-
-<header class="navbar">
-
-<a href="#home" class="logo">
-MA
-</a>
-
-<button class="menu-toggle" id="menu-toggle" aria-label="Open menu">
-☰
+<button class="menu-toggle" id="menu-toggle"
+aria-label="Toggle navigation" aria-expanded="false"
+aria-controls="nav-links">
+<span></span><span></span><span></span>
 </button>
 
-<nav class="nav-links">
-
-<a href="#home">Home</a>
-
-
-<a href="./#what-i-do">What I Do</a>
-
-
-
-<a href="#about">About</a>
-
-<a href="#projects">Projects</a>
-
-<a href="#skills">Skills</a>
-
-<a href="#education">Education</a>
-
-<a href="#certificates">Certificates</a>
-
-<a href="#experience">Experience</a>
-
-<a href="#contact">Contact</a>
-
+<ul class="nav-links" id="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#services">What I Do</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#certificates">Certificates</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a class="nav-contact" href="#contact">Contact</a></li>
+</ul>
 </nav>
-
 </header>
 
-
-<!-- Main Content -->
-
 <main>
-
-
-<!-- Hero Section -->
-
-<section id="home" class="hero">
-
+<!-- HERO: SPLIT SCREEN -->
+<section class="hero" id="home">
+<div class="hero-grid">
 <div class="hero-content">
+<p class="eyebrow"><span class="status-dot"></span> WELCOME TO MY PORTFOLIO</p>
+<p class="hero-intro">Hello, I'm</p>
 
-<p class="intro">
-Hello, I'm
+<h1>Maryam<br><span>Alnumani.</span></h1>
+
+<h2>MIS Graduate <span class="separator">/</span> Backend Developer</h2>
+
+<p class="hero-description">
+I combine information systems, technology, and analytical thinking
+to explore practical digital solutions. My interests include backend
+development, data analytics, and digital transformation.
 </p>
 
-<h1>
-Maryam Alnumani
-</h1>
-
-<h2>
-MIS Graduate
-<span>|</span>
-Backend Developer
-</h2>
-
-<p class="description">
-
-Information Systems graduate interested in
-backend development, REST APIs, data analysis,
-IoT, and digital transformation.
-
-</p>
-
-
-<div class="hero-buttons">
-
-<a
-href="#projects"
-class="btn primary-btn"
->
-View My Projects
+<div class="hero-actions">
+<a href="#projects" class="btn btn-primary">
+Explore My Work <span>↗</span>
 </a>
-
-
-<a
-href="assets/Maryam -Alnumani-CV.pdf"
-target="_blank"
-rel="noopener noreferrer"
-class="btn secondary-btn"
->
-View My CV
+<a href="assets/Maryam -Alnumani-CV.pdf"
+class="btn btn-outline" target="_blank" rel="noopener">
+View My CV ↗
 </a>
-
 </div>
 
-
-<div class="social-icons">
-
-<a
-href="https://github.com/MaryamAlnumani"
-target="_blank"
->
-GitHub
-</a>
-
-
-<a
-href="https://www.linkedin.com/in/maryamalnumani"
-target="_blank"
-rel="noopener noreferrer"
-aria-label="LinkedIn"
-title="LinkedIn"
->
-<i class="fa-brands fa-linkedin"></i>
-</a>
-
+<div class="hero-socials">
+<a href="https://github.com/MaryamAlnumani"
+target="_blank" rel="noopener">GitHub ↗</a>
+<a href="https://www.linkedin.com/"
+target="_blank" rel="noopener">LinkedIn ↗</a>
+<a href="mailto:Maryamwq22@gmail.com">Email ↗</a>
 </div>
 
+<div class="hero-note">
+<span>01</span>
+<span>INFORMATION SYSTEMS · TECHNOLOGY · INNOVATION</span>
+</div>
 </div>
 
+<div class="hero-art" aria-label="Maryam Alnumani portfolio visual">
+<div class="art-top">
+<span>PORTFOLIO</span>
+<span>SAUDI ARABIA · 2026</span>
+</div>
+
+<div class="art-monogram" aria-hidden="true">MA</div>
+
+<div class="art-caption">
+<div>
+<p class="art-small">CURIOUS BY NATURE</p>
+<h2>Building thoughtful<br>digital solutions.</h2>
+</div>
+<span class="art-star" aria-hidden="true">✳</span>
+</div>
+
+<div class="art-bottom">
+<span>BACKEND</span>
+<span>DATA</span>
+<span>INFORMATION SYSTEMS</span>
+</div>
+
+<div class="art-circle art-circle-one"></div>
+<div class="art-circle art-circle-two"></div>
+</div>
+</div>
+
+<div class="hero-bottom container">
+<span>MARYAM ALNUMANI — PERSONAL PORTFOLIO</span>
+<a href="#about">SCROLL TO DISCOVER ↓</a>
+</div>
 </section>
 
-
-<!-- What I Do -->
-
-<section id="what-i-do" class="section">
-
+<!-- WHAT I DO -->
+<section class="section" id="services">
+<div class="container">
 <div class="section-heading">
-
-<p class="section-label">
-WHAT I DO
-</p>
-
-<h2>
-Turning Ideas Into Digital Solutions
-</h2>
-
-<p class="section-description">
-I combine information systems knowledge with
-backend development, data skills, and emerging
-technologies to build practical digital solutions.
-</p>
-
+<p class="eyebrow">WHAT I DO</p>
+<h2>Technology with <span>purpose.</span></h2>
+<p>Connecting business needs with technical thinking and digital tools.</p>
 </div>
 
 <div class="services-grid">
-
-<div class="service-card">
-
-<span class="service-number">
-01
-</span>
-
-<div class="service-icon">
-&lt;/&gt;
-</div>
-
-<h3>
-Backend Development
-</h3>
-
+<article class="service-card">
+<span class="card-index">01 / DEVELOPMENT</span>
+<div class="service-icon">⌘</div>
+<h3>Backend Development</h3>
 <p>
-Building practical backend applications
-and REST APIs using Python, Django,
-and Django REST Framework.
+Exploring Python, Django, REST APIs, and database-driven
+applications to build useful technical solutions.
 </p>
+<a href="#skills">Explore skills ↗</a>
+</article>
 
-<div class="service-tags">
-<span>Python</span>
-<span>Django</span>
-<span>REST API</span>
-</div>
-
-</div>
-
-
-<div class="service-card">
-
-<span class="service-number">
-02
-</span>
-
-<div class="service-icon">
-◫
-</div>
-
-<h3>
-Data & Analytics
-</h3>
-
+<article class="service-card">
+<span class="card-index">02 / ANALYTICS</span>
+<div class="service-icon">▥</div>
+<h3>Data & Analytics</h3>
 <p>
-Working with data to organize, analyze,
-and transform information into useful
-insights using analytical tools.
+Using SQL, Excel, and Power BI to organize information,
+explore data, and support better decisions.
 </p>
+<a href="#skills">Explore skills ↗</a>
+</article>
 
-<div class="service-tags">
-<span>SQL</span>
-<span>Power BI</span>
-<span>Excel</span>
-</div>
-
-</div>
-
-
-<div class="service-card">
-
-<span class="service-number">
-03
-</span>
-
-<div class="service-icon">
-✦
-</div>
-
-<h3>
-Information Systems
-</h3>
-
+<article class="service-card">
+<span class="card-index">03 / SYSTEMS</span>
+<div class="service-icon">◈</div>
+<h3>Information Systems</h3>
 <p>
-Connecting business needs with technology
-to support digital transformation,
-IoT solutions, and practical technology.
+Bringing together business processes, information technology,
+and emerging digital solutions.
 </p>
-
-<div class="service-tags">
-<span>MIS</span>
-<span>Digital Transformation</span>
+<a href="#about">About me ↗</a>
+</article>
 </div>
-
 </div>
-
-</div>
-
 </section>
 
-
-<!-- Featured Project -->
-
-<section id="featured-project" class="section">
-
-<div class="section-heading">
-
-<p class="section-label">
-FEATURED PROJECT
-</p>
-
-<h2>
-Red Sea Rescue Grid
-</h2>
-
-<p class="section-description">
-An IoT-based maritime monitoring and predictive risk concept
-designed to identify potential vessel interactions with
-sensitive marine areas and support early risk awareness.
-</p>
-
+<!-- ABOUT -->
+<section class="section about-section" id="about">
+<div class="container about-grid">
+<div class="about-heading">
+<p class="eyebrow">A LITTLE ABOUT ME</p>
+<h2>Business mind.<br><span>Technology focus.</span></h2>
+<div class="about-monogram">M<span>A</span>.</div>
 </div>
 
-
-<div class="featured-project-card">
-
-<div class="project-content">
-
-<span class="project-label">
-IoT & PREDICTIVE RISK
-</span>
-
-<h3>
-Red Sea Rescue Grid 🚨🌊
-</h3>
-
-<p class="project-description">
-A smart maritime monitoring system built with Cumulocity IoT.
-The project combines simulated vessel data, environmental
-conditions, vessel speed and heading to support predictive
-risk detection and real-time marine monitoring.
+<div class="about-copy">
+<p class="about-lead">
+I am a Management Information Systems graduate from
+King Abdulaziz University with an interest in backend development,
+data analytics, and digital transformation.
 </p>
 
+<p>
+My academic background combines business understanding with
+information technology. I enjoy learning how digital tools and
+organized information can help solve problems and improve processes.
+</p>
 
-<div class="project-tech">
+<p>
+Through technical learning and hands-on projects, I continue to
+develop my skills and explore ways to turn ideas into practical solutions.
+</p>
 
+<div class="about-stats">
+<div>
+<strong>2023</strong>
+<span>Graduation year</span>
+</div>
+<div>
+<strong>MIS</strong>
+<span>Degree</span>
+</div>
+<div>
+<strong>Tech + Business</strong>
+<span>Area of interest</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" id="projects">
+<div class="container">
+<div class="section-heading">
+<p class="eyebrow">SELECTED WORK</p>
+<h2>One project. <span>A real-world idea.</span></h2>
+<p>A closer look at a project exploring IoT monitoring and predictive risk.</p>
+</div>
+
+<article class="featured-project">
+<div class="project-visual">
+<div class="project-visual-top">
+<span>FEATURED PROJECT</span>
+<span>01 / 01</span>
+</div>
+
+<div class="ocean-graphic" aria-hidden="true">
+<span class="ocean-ring ring-one"></span>
+<span class="ocean-ring ring-two"></span>
+<span class="ocean-ring ring-three"></span>
+<span class="ocean-center">〰</span>
+<span class="ocean-point"></span>
+</div>
+
+<div class="project-visual-title">
+<span>RED SEA</span>
+<strong>RESCUE GRID</strong>
+</div>
+
+<div class="project-visual-bottom">
+<span>MONITOR</span>
+<span>PREDICT</span>
+<span>PROTECT</span>
+</div>
+</div>
+
+<div class="project-details">
+<p class="eyebrow">IOT · MARINE MONITORING · PREDICTIVE RISK</p>
+<h3>RED SEA RESCUE GRID</h3>
+
+<p>
+An IoT prototype exploring how vessel data and environmental
+conditions can help identify potential risks near sensitive
+marine areas and support faster decision-making.
+</p>
+
+<p>
+The project brings together simulated sensor data, monitoring
+dashboards, predictive risk concepts, and safer-route recommendations.
+</p>
+
+<div class="tag-list">
 <span>Cumulocity IoT</span>
-<span>IoT</span>
-<span>Predictive Analytics</span>
-<span>Real-Time Monitoring</span>
-<span>Agentic AI</span>
-
+<span>Dashboards</span>
+<span>Sensor Data</span>
+<span>Predictive Risk</span>
 </div>
 
-
-<div class="project-buttons">
-
-<a
-href="https://github.com/MaryamAlnumani/Red-Sea-Rescue-Grid"
-target="_blank"
-rel="noopener noreferrer"
-class="project-btn primary"
->
-View on GitHub
+<a class="btn btn-primary project-button"
+href="https://github.com/MaryamAlnumani/RED-SEA-RESCUE-GRID"
+target="_blank" rel="noopener">
+View Project on GitHub ↗
 </a>
-
-<a
-href="#projects"
-class="project-btn secondary"
->
-More Projects
-</a>
-
 </div>
+</article>
 
+<p class="projects-note">
+More projects will be added here as they become available to showcase.
+</p>
 </div>
-
-
-<div class="project-features">
-
-<h4>
-Key Features
-</h4>
-
-<div class="feature-item">
-<span>01</span>
-<p>Vessel Monitoring</p>
-</div>
-
-<div class="feature-item">
-<span>02</span>
-<p>Predictive Risk Detection</p>
-</div>
-
-<div class="feature-item">
-<span>03</span>
-<p>Marine Environment Monitoring</p>
-</div>
-
-<div class="feature-item">
-<span>04</span>
-<p>Real-Time Marine Alerts</p>
-</div>
-
-<div class="feature-item">
-<span>05</span>
-<p>Interactive IoT Dashboards</p>
-</div>
-
-</div>
-
-</div>
-
 </section>
 
-
-<!-- About -->
-
-<section id="about" class="section">
-
+<!-- SKILLS -->
+<section class="section skills-section" id="skills">
+<div class="container">
 <div class="section-heading">
-
-<p class="section-label">
-ABOUT ME
-</p>
-
-<h2>
-Who I Am
-</h2>
-
+<p class="eyebrow">MY TOOLKIT</p>
+<h2>Skills & <span>technologies.</span></h2>
+<p>Tools and technical areas I have studied or worked with.</p>
 </div>
-
-
-<div class="about-content">
-
-<div class="about-text">
-
-<p>
-I am an Information Systems graduate from
-King Abdulaziz University.
-</p>
-
-<p>
-I am interested in backend development,
-data analysis, APIs, IoT, and digital
-transformation.
-</p>
-
-<p>
-I enjoy learning new technologies and
-building practical technical solutions.
-</p>
-
-</div>
-
-
-<div class="about-card">
-
-<div class="info-item">
-
-<span class="info-title">
-Degree
-</span>
-
-<span>
-BSc in Management Information Systems
-</span>
-
-</div>
-
-
-<div class="info-item">
-
-<span class="info-title">
-University
-</span>
-
-<span>
-King Abdulaziz University
-</span>
-
-</div>
-
-
-<div class="info-item">
-
-<span class="info-title">
-Graduation
-</span>
-
-<span>
-2023
-</span>
-
-</div>
-
-
-<div class="info-item">
-
-<span class="info-title">
-Focus
-</span>
-
-<span>
-Backend, Data & IoT
-</span>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- Projects -->
-
-<section id="projects" class="section projects-section">
-
-<div class="section-heading">
-
-<p class="section-label">
-MORE PROJECTS
-</p>
-
-<h2>
-Other Projects
-</h2>
-
-<p class="section-description">
-Exploring more of my work and technical projects.
-</p>
-
-</div>
-
-
-<div id="projects-container">
-
-<!-- GitHub projects will appear here -->
-
-</div>
-
-</section>
-
-
-<!-- Skills -->
-
-<section id="skills" class="section">
-
-<div class="section-heading">
-
-<p class="section-label">
-TECHNOLOGIES
-</p>
-
-<h2>
-Skills
-</h2>
-
-</div>
-
 
 <div class="skills-grid">
-
-
-<!-- Backend -->
-
-<div class="skill-card">
-
-<h3>
-Backend
-</h3>
-
-<div class="skill-list">
-
+<article class="skill-card">
+<span class="skill-number">01</span>
+<h3>Backend Development</h3>
+<div class="tag-list">
 <span>Python</span>
-
 <span>Django</span>
-
 <span>Django REST Framework</span>
-
 <span>REST APIs</span>
-
-</div>
-
-</div>
-
-
-<!-- Data -->
-
-<div class="skill-card">
-
-<h3>
-Data & Analytics
-</h3>
-
-<div class="skill-list">
-
-<span>SQL</span>
-
-<span>Power BI</span>
-
-<span>Excel</span>
-
-<span>Predictive Analytics</span>
-
-</div>
-
-</div>
-
-
-<!-- IoT -->
-
-<div class="skill-card">
-
-<h3>
-IoT & Emerging Tech
-</h3>
-
-<div class="skill-list">
-
-<span>Cumulocity IoT</span>
-
-<span>IoT</span>
-
-<span>Real-Time Monitoring</span>
-
-<span>Quantum Computing</span>
-
-</div>
-
-</div>
-
-
-<!-- Tools -->
-
-<div class="skill-card">
-
-<h3>
-Tools
-</h3>
-
-<div class="skill-list">
-
-<span>Git</span>
-
-<span>GitHub</span>
-
 <span>Postman</span>
+<span>JWT</span>
+</div>
+</article>
 
+<article class="skill-card">
+<span class="skill-number">02</span>
+<h3>Data & Analytics</h3>
+<div class="tag-list">
+<span>SQL</span>
+<span>Power BI</span>
+<span>Microsoft Excel</span>
+<span>Data Analysis</span>
+<span>Dashboards</span>
+</div>
+</article>
+
+<article class="skill-card">
+<span class="skill-number">03</span>
+<h3>Emerging Technologies</h3>
+<div class="tag-list">
+<span>Quantum Computing</span>
 <span>Qiskit</span>
-
+<span>IoT</span>
+<span>Artificial Intelligence</span>
+<span>Cumulocity IoT</span>
 </div>
+</article>
 
+<article class="skill-card">
+<span class="skill-number">04</span>
+<h3>Tools & Business</h3>
+<div class="tag-list">
+<span>GitHub</span>
+<span>VS Code</span>
+<span>Information Systems</span>
+<span>Process Organization</span>
+<span>Digital Transformation</span>
 </div>
-
-
+</article>
 </div>
-
+</div>
 </section>
 
-
-<!-- Experience -->
-
-<section id="experience" class="section">
-
+<!-- EDUCATION -->
+<section class="section" id="education">
+<div class="container">
 <div class="section-heading">
-
-<p class="section-label">
-EXPERIENCE
-</p>
-
-<h2>
-Training
-</h2>
-
+<p class="eyebrow">EDUCATION</p>
+<h2>My academic <span>foundation.</span></h2>
 </div>
 
-
-<!-- Quantum Computing Bootcamp -->
-
-<div class="experience-card">
-
-<div class="experience-top">
-
+<article class="timeline-item">
+<div class="timeline-date">2023</div>
 <div>
-
-<p class="experience-label">
-BOOTCAMP
+<h3>Bachelor's Degree in Management Information Systems</h3>
+<p class="timeline-place">King Abdulaziz University · Jeddah, Saudi Arabia</p>
+<p>
+Academic background in the relationship between business,
+information technology, and organizational systems.
 </p>
-
-<h3>
-Quantum Computing Bootcamp
-</h3>
-
 </div>
-
-
-<span class="experience-date">
-2026
-</span>
-
+</article>
 </div>
-
-
-<div class="experience-details">
-
-<span>
-Saudi Digital Academy (SDA)
-</span>
-
-</div>
-
-</div>
-
-
-<!-- Cooperative Training -->
-
-<div class="experience-card">
-
-<div class="experience-top">
-
-<div>
-
-<p class="experience-label">
-TRAINING
-</p>
-
-<h3>
-Mahmoud Saeed Glass Manufacturing
-</h3>
-
-</div>
-
-
-<span class="experience-date">
-May 2023
-</span>
-
-</div>
-
-
-<div class="experience-details">
-
-<span>
-88 Hours Training
-</span>
-
-</div>
-
-</div>
-
 </section>
 
-
-<!-- Education -->
-
-<section id="education" class="section">
-
+<!-- CERTIFICATES -->
+<section class="section certificates-section" id="certificates">
+<div class="container">
 <div class="section-heading">
-
-<p class="section-label">
-EDUCATION
-</p>
-
-<h2>
-My Education
-</h2>
-
+<p class="eyebrow">CONTINUOUS LEARNING</p>
+<h2>Courses & <span>certificates.</span></h2>
 </div>
-
-
-<div class="education-card">
-
-<div>
-
-<p class="education-label">
-BACHELOR'S DEGREE
-</p>
-
-<h3>
-Management Information Systems
-</h3>
-
-<p class="education-university">
-King Abdulaziz University
-</p>
-
-</div>
-
-
-<span class="education-date">
-2023
-</span>
-
-</div>
-
-</section>
-
-
-<!-- Certificates -->
-
-<section id="certificates" class="section">
-
-<div class="section-heading">
-
-<p class="section-label">
-CERTIFICATIONS
-</p>
-
-<h2>
-Certificates & Courses
-</h2>
-
-</div>
-
 
 <div class="certificates-grid">
+<article class="certificate-card">
+<span class="certificate-number">01</span>
+<h3>Quantum Computing Bootcamp</h3>
+<p>Saudi Digital Academy</p>
+</article>
 
+<article class="certificate-card">
+<span class="certificate-number">02</span>
+<h3>AI Concepts & Advanced Applications</h3>
+<p>SDAIA</p>
+</article>
 
-<!-- 01 -->
+<article class="certificate-card">
+<span class="certificate-number">03</span>
+<h3>Fundamentals of Artificial Intelligence</h3>
+<p>SDAIA</p>
+</article>
 
-<div class="certificate-card">
+<article class="certificate-card">
+<span class="certificate-number">04</span>
+<h3>Full Stack Developer Track</h3>
+<p>Udacity</p>
+</article>
 
-<span class="certificate-number">
-01
-</span>
+<article class="certificate-card">
+<span class="certificate-number">05</span>
+<h3>Building API Interfaces Using Django</h3>
+<p>Tuwaiq Academy</p>
+</article>
 
-<h3>
-Quantum Computing Bootcamp
-</h3>
+<article class="certificate-card">
+<span class="certificate-number">06</span>
+<h3>Product Management & Design</h3>
+<p>Riyadah</p>
+</article>
 
-<p>
-Saudi Digital Academy (SDA)
-</p>
-
+<article class="certificate-card">
+<span class="certificate-number">07</span>
+<h3>Inventory & Purchasing Management</h3>
+<p>Riyadah</p>
+</article>
 </div>
-
-
-<!-- 02 -->
-
-<div class="certificate-card">
-
-<span class="certificate-number">
-02
-</span>
-
-<h3>
-AI Concepts & Advanced Applications
-</h3>
-
-<p>
-SDAIA
-</p>
-
 </div>
-
-
-<!-- 03 -->
-
-<div class="certificate-card">
-
-<span class="certificate-number">
-03
-</span>
-
-<h3>
-Fundamentals of Artificial Intelligence
-</h3>
-
-<p>
-SDAIA
-</p>
-
-</div>
-
-
-<!-- 04 -->
-
-<div class="certificate-card">
-
-<span class="certificate-number">
-04
-</span>
-
-<h3>
-Full Stack Developer Track
-</h3>
-
-<p>
-Udacity
-</p>
-
-</div>
-
-
-<!-- 05 -->
-
-<div class="certificate-card">
-
-<span class="certificate-number">
-05
-</span>
-
-<h3>
-Building API Interfaces Using Django
-</h3>
-
-<p>
-Tuwaiq Academy
-</p>
-
-</div>
-
-
-<!-- 06 -->
-
-<div class="certificate-card">
-
-<span class="certificate-number">
-06
-</span>
-
-<h3>
-Product Management & Design
-</h3>
-
-<p>
-Riyadah
-</p>
-
-</div>
-
-
-<!-- 07 -->
-
-<div class="certificate-card">
-
-<span class="certificate-number">
-07
-</span>
-
-<h3>
-Inventory & Purchasing Management
-</h3>
-
-<p>
-Riyadah
-</p>
-
-</div>
-
-
-</div>
-
 </section>
 
-
-<!-- Contact -->
-
-<section id="contact" class="section contact-section">
-
+<!-- EXPERIENCE -->
+<section class="section" id="experience">
+<div class="container">
 <div class="section-heading">
-
-<p class="section-label">
-CONTACT
-</p>
-
-<h2>
-Let's Connect
-</h2>
-
-<p class="section-description">
-I'm always open to new opportunities, collaborations,
-and professional connections.
-</p>
-
+<p class="eyebrow">EXPERIENCE & TRAINING</p>
+<h2>Learning through <span>experience.</span></h2>
 </div>
 
-
-<div class="contact-grid">
-
-
-<!-- Email -->
-
-<a
-href="mailto:Maryamwq22@gmail.com"
-class="contact-card"
->
-
-<div class="contact-icon">
-✉
-</div>
-
-<div class="contact-info">
-
-<span class="contact-title">
-Email
-</span>
-
-<span class="contact-value">
-Maryamwq22@gmail.com
-</span>
-
-</div>
-
-</a>
-
-
-<!-- WhatsApp -->
-
-<a
-href="https://wa.me/966545840858"
-target="_blank"
-rel="noopener noreferrer"
-class="contact-card"
->
-
-<div class="contact-icon">
-WA
-</div>
-
-<div class="contact-info">
-
-<span class="contact-title">
-WhatsApp
-</span>
-
-<span class="contact-value">
-Let's chat
-</span>
-
-</div>
-
-</a>
-
-
-<!-- LinkedIn -->
-
-<a
-href="https://www.linkedin.com/in/maryamalnumani"
-target="_blank"
-rel="noopener noreferrer"
-class="contact-card"
->
-
-<div class="contact-icon">
-IN
-</div>
-
-<div class="contact-info">
-
-<span class="contact-title">
-LinkedIn
-</span>
-
-<span class="contact-value">
-Connect with me
-</span>
-
-</div>
-
-</a>
-
-
-<!-- GitHub -->
-
-<a
-href="https://github.com/MaryamAlnumani"
-target="_blank"
-rel="noopener noreferrer"
-class="contact-card"
->
-
-<div class="contact-icon">
-GH
-</div>
-
-<div class="contact-info">
-
-<span class="contact-title">
-GitHub
-</span>
-
-<span class="contact-value">
-View my projects
-</span>
-
-</div>
-
-</a>
-
-
-</div>
-
-
-<!-- CV -->
-
-<div class="cv-card">
-
-<div class="cv-content">
-
-<p class="cv-label">
-MY RESUME
-</p>
-
-<h3>
-Interested in my background?
-</h3>
-
+<article class="timeline-item">
+<div class="timeline-date">May 2023</div>
+<div>
+<h3>Cooperative Trainee</h3>
+<p class="timeline-place">Mahmoud Saeed Glass Manufacturing</p>
 <p>
-View my CV to learn more about my education,
-skills, projects, and professional experience.
+Completed 88 hours of cooperative training as part of my
+Management Information Systems academic program.
 </p>
-
 </div>
+</article>
 
-
-<a
-href="assets/Maryam -Alnumani-CV.pdf"
-target="_blank"
-rel="noopener noreferrer"
-class="cv-button"
->
-View My CV →
-</a>
-
+<article class="timeline-item">
+<div class="timeline-date">2026</div>
+<div>
+<h3>Quantum Computing Program</h3>
+<p class="timeline-place">Saudi Digital Academy</p>
+<p>
+Participated in a learning program focused on quantum computing
+concepts and emerging technologies.
+</p>
 </div>
-
+</article>
+</div>
 </section>
 
+<!-- CONTACT -->
+<section class="section contact-section" id="contact">
+<div class="container contact-grid">
+<div class="contact-intro">
+<p class="eyebrow">LET'S CONNECT</p>
+<h2>Good ideas start<br><span>with a conversation.</span></h2>
+<p>
+I am interested in opportunities where I can learn, contribute,
+and apply my skills in information systems and technology.
+</p>
+</div>
+
+<div class="contact-links">
+<a href="mailto:Maryamwq22@gmail.com">
+<span>Email</span>
+<strong>Maryamwq22@gmail.com ↗</strong>
+</a>
+
+<a href="https://wa.me/966545840858"
+target="_blank" rel="noopener">
+<span>WhatsApp</span>
+<strong>Let's connect ↗</strong>
+</a>
+
+<a href="https://github.com/MaryamAlnumani"
+target="_blank" rel="noopener">
+<span>GitHub</span>
+<strong>Explore my profile ↗</strong>
+</a>
+
+<a href="https://www.linkedin.com/"
+target="_blank" rel="noopener">
+<span>LinkedIn</span>
+<strong>Professional profile ↗</strong>
+</a>
+</div>
+</div>
+</section>
+</main>
+
+<footer class="site-footer">
+<div class="container footer-inner">
+<a href="#home" class="logo">M<span>A</span>.</a>
+<p>Designed with intention by Maryam Alnumani.</p>
+<a href="#home">Back to top ↑</a>
+</div>
+</footer>
 
 <script src="script.js"></script>
-
 </body>
-
 </html>
