@@ -1230,3 +1230,172 @@ scroll-behavior: auto !important;
 transition-duration: 0.01ms !important;
 }
 }
+
+/* ===== MOBILE POLISH ===== */
+
+@media (max-width: 760px) {
+.hero {
+min-height: auto;
+padding-bottom: 24px;
+}
+
+.hero-content {
+padding: 42px 22px 34px;
+}
+
+.hero-intro {
+font-size: 15px;
+}
+
+.hero h1 {
+font-size: clamp(42px, 11vw, 58px);
+line-height: 1.08;
+letter-spacing: -2px;
+overflow-wrap: anywhere;
+}
+
+.hero-content > h2 {
+font-size: 13px;
+line-height: 1.8;
+}
+
+.hero-description {
+font-size: 13px;
+line-height: 1.85;
+}
+
+.hero-actions {
+display: grid;
+grid-template-columns: 1fr;
+gap: 10px;
+}
+
+.hero-actions .btn {
+width: 100%;
+min-height: 48px;
+}
+
+.hero-socials {
+gap: 18px;
+}
+
+.hero-note {
+margin-top: 28px;
+flex-wrap: wrap;
+}
+
+.hero-art {
+min-height: 370px;
+margin-left: 0;
+padding: 23px 20px;
+border-radius: 48% 48% 0 0 / 12% 12% 0 0;
+}
+
+.art-monogram {
+font-size: clamp(155px, 43vw, 250px);
+letter-spacing: -12px;
+}
+
+.art-caption {
+gap: 10px;
+}
+
+.art-caption h2 {
+font-size: clamp(25px, 7vw, 32px);
+}
+
+.art-star {
+font-size: 30px;
+}
+
+.hero-bottom {
+flex-wrap: wrap;
+line-height: 1.8;
+}
+
+.section-heading h2,
+.about-heading h2,
+.contact-intro h2 {
+font-size: clamp(29px, 8vw, 38px);
+letter-spacing: -1px;
+}
+
+.service-card,
+.skill-card,
+.certificate-card {
+padding: 22px;
+}
+
+.project-visual {
+min-height: 320px;
+}
+
+.project-visual-title {
+font-size: 25px;
+}
+
+.project-visual-title strong {
+font-size: 30px;
+}
+
+.project-details {
+padding: 24px 20px;
+}
+
+.about-stats {
+grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.about-stats span {
+line-height: 1.6;
+}
+
+.timeline-item {
+gap: 8px;
+}
+
+.contact-links a {
+overflow-wrap: anywhere;
+}
+
+.footer-inner {
+gap: 12px;
+}
+
+img,
+video,
+iframe {
+max-width: 100%;
+}
+}
+
+@media (max-width: 380px) {
+.hero-content {
+padding-right: 17px;
+padding-left: 17px;
+}
+
+.hero h1 {
+font-size: 40px;
+letter-spacing: -1.7px;
+}
+
+.hero-art {
+min-height: 330px;
+}
+
+.art-top,
+.art-bottom {
+font-size: 6px;
+letter-spacing: 0.7px;
+}
+
+.about-stats {
+gap: 7px;
+}
+
+.about-stats strong {
+font-size: 14px;
+}
+}
+
