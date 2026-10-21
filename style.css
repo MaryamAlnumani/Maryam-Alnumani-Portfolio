@@ -1415,3 +1415,37 @@ font-variant-emoji: text;
 }
 }
 
+/* =========================================
+MOBILE SYMBOL FIX
+Preserve desktop appearance
+========================================= */
+
+@media (max-width: 760px) {
+.art-star {
+color: #E8DCE9 !important;
+font-family: Arial, Helvetica, sans-serif;
+font-variant-emoji: text;
+font-weight: 400;
+line-height: 1;
+flex-shrink: 0;
+}
+
+.hero-actions a,
+.hero-socials a,
+.hero-bottom a,
+.service-card a,
+.project-details a,
+.contact-links a,
+.footer-inner a {
+font-variant-emoji: text;
+}
+
+.hero-actions span,
+.hero-socials span,
+.art-caption span,
+.hero-bottom span {
+font-variant-emoji: text;
+}
+}
+
+
